@@ -35,12 +35,12 @@ const config = {
     "4838400": "8 Weeks"
   },
   // admin password, set to false to disable /admin page
-  "adminPass": false,
+  "adminPass": true,
   // upload password, set to false to disable
   "uploadPass": false,
   // make the bucket-password field mandatory
   "requireBucketPassword": false,
-  "defaultRetention": "604800",
+  "defaultRetention": "3600",
   // expire every file after maxAge (eg never downloaded one-time files)
   "maxAge": 3600 * 24 * 75, // 75 days
   // maximum file-size for previews in byte
